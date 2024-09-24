@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Paarsh Infotech </title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/flowbite@1.6.5/dist/flowbite.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body style="font-family: sans-serif;">
+    
+<!-- Top Header -->
+<div class="sticky top-0 z-50">
+<header class="bg-blue-500 text-white text-lg top-0 z-50 lg:px-28 xl:px-36">
+  <div class="container mx-auto flex flex-col sm:flex-row justify-between items-center py-2 px-4 sm:px-6">
+    <!-- Left Side: Email and Contact Info -->
+    <div class="flex flex-wrap items-center space-x-2 sm:space-x-4">
+      <i class="fas fa-envelope mx-2 sm:mx-0"></i>
+      <span class="text-sm sm:text-base">
+                    <a href="mailto:info@paarshinfotech.com" class="hover:underline">info@paarshinfotech.com</a>
+                </span>
+      
+      <span class="text-sm sm:text-base "><i class="fa-solid fa-mobile-screen-button text-lg"></i>&nbsp;&nbsp; +91 98609 88343</span>
+    </div>
+    <!-- Right Side: Social Media Icons -->
+    <div class="flex flex-wrap items-center space-x-2 sm:space-x-4 mt-2 sm:mt-0">
+      <a href="https://www.linkedin.com/company/paarsh-infotech-pvt-ltd" target="_blank" class="hover:text-gray-300"><i class="fab fa-linkedin-in"></i></a>
+
+      <a href="https://www.facebook.com/Paarsh.Infotech" target="_blank" class="hover:text-gray-300"><i class="fab fa-facebook-f"></i></a>
+
+      <a href="https://www.instagram.com/paarsh_infotech/" target="_blank" class="hover:text-gray-300"><i class="fab fa-instagram"></i></a>
+
+      <a href="https://x.com/paarshinfotech" target="_blank" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+      
+      <a href="https://www.youtube.com/@paarshinfotech" target="_blank" class="hover:text-gray-300"><i class="fab fa-youtube"></i></a>
+    </div>
+  </div>
+</header>
+
+  <!----------------------------------------------------------------------------------------------------->
+
+<!----------------navbar----------------------->  
+<nav class="navbar left-0 w-full z-50 bg-white shadow  lg:px-28 xl:px-36">
+    <div class="container mx-auto flex items-center justify-between py-2 px-4 ">
+        <!-- Logo -->
+        <a href="index.htm" class="flex items-center">
+            <img src="images/logo.png" alt="Logo" class="h-14">
+        </a>
+
+        <!-- Hamburger Button for Mobile View -->
+        <button id="menu-btn" class="block md:hidden focus:outline-none">
+            <i class="fas fa-bars text-2xl"></i>
+        </button>
+        
+        <!-- Navigation Links and Button -->
+        <div  class="hidden md:block flex items-center space-x-6 text-[18px]">
+            <a href="index.htm" class="text-gray-700 hover:text-blue-500">Home</a>
+            <a href="about.htm" class="text-gray-700 hover:text-blue-500">About</a>
+            <a href="services.htm" class="text-gray-700 hover:text-blue-500">Services</a>
+            <a href="contact.htm" class="text-gray-700 hover:text-blue-500">Contact</a>
+            <a href="contact.htm#contact-form" class="md:inline-block bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Get A Quote</a>
+        </div>
+    </div>
+
+    <style>
+      .phone-menu{
+            display: none;
+      }
+    </style>
+
+    <!-- Navigation Links and Button -->
+        <div  class="phone-menu md:hidden text-[18px]">
+            <ul class="bg-gray-100 text-center">
+                <a href="index.htm" class="block py-1 border-b-2 border-b-white text-gray-900 hover:bg-gray-700 hover:text-white hover:font-semibold">Home</a>
+                <a href="about.htm" class="block py-1 border-b-2 border-b-white text-gray-900 hover:bg-gray-700 hover:text-white hover:font-semibold">About</a>
+                <a href="services.htm" class="block py-1 border-b-2 border-b-white text-gray-900 hover:bg-gray-700 hover:text-white hover:font-semibold">Service</a>
+                <a href="contact.htm" class="block py-1 text-gray-900 hover:bg-gray-700 hover:text-white hover:font-semibold">Contact</a>
+                <a href="contact.htm#contact-form" class="block py-2 text-white bg-blue-500 hover:bg-blue-700 hover:text-white hover:font-semibold">Get A Quote</a>
+             
+            </ul>
+        </div>
+</nav>
+</div>
+<!----------------------------------------------------------------------------------------------------->
+
+    <!---------header-------->
+<!-- top banner -->
+<header class="relative w-full h-screen bg-no-repeat bg-cover" style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.9) 100%), url('images/banner-main.jpg');">
+  <div class="absolute inset-0 bg-black opacity-50"></div>
+  <div class="relative py-24 h-full">
+    <h1 class="text-white text-4xl sm:text-5xl font-bold text-center px-2 mt-28 md:mt-72">Best Software Development<br> Company In Nashik</h1>
+  </div>
+</header>
+
+<!----------------------------------------------------------------------------------------------------->
+
+<!-- Section -->
+    <section class="m-2 mt-16 lg:px-24 bg-white  ">
+        <div class="container mx-auto ">
+            <!-- Heading -->
+            <h2 class="text-3xl font-semibold text-gray-800 pl-4 md:px-16">Why Paarsh Infotech?</h2>
+            
+
+            <!-- Cards -->
+            <div class="sm:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-2 xl:gap-2 xl:mx-16 mt-4 pb-2 bg-slate-50 ">
+                <!-- Card 1 -->
+                <div class="mx-auto my-2 bg-white shadow-lg rounded p-6 max-w-64 ">
+                <i class="fa-solid fa-basketball text-3xl text-blue-500 font-semibold"></i>
+
+                <h2 class="font-bold my-3">Complete Technology<br>Partner</h2>
+                    <p class="text-gray-700 text-left    ">We Offer end-to-end technology solutions, from strategic consulting to cybersecurity, tailored to meet your specific needs. Partner with us for comprehensive expertise and unwavering support. your sucess is our priority.</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="mx-auto my-2 bg-white shadow-lg rounded p-6 max-w-64 ">
+                <i class="fas fa-sticky-note text-3xl text-blue-500 font-semibold"></i>
+
+                <h2 class="font-bold my-3">Backend By 100%<br>Customer References</h2>
+                    <p class="text-gray-700 text-left    ">our work speaksfor itself. Trusted by businesses who have experienced our transformative technology solutions. join the satisfied clients who have found sucess with us.</p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="mx-auto my-2 bg-white shadow-lg rounded p-6 max-w-64 ">
+                <i class="fa-solid fa-hourglass-start text-3xl text-blue-500 font-semibold"></i>
+
+                <h2 class="font-bold my-3">Fast,Scalable, & Reliable</h2>
+                    <p class="text-gray-700 text-left    ">Experience lightning fast technology,scalable to row with you, and rock-solid reliability. Our solutions ensure seamless performance for your business needs.</p>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="mx-auto my-2 bg-white shadow-lg rounded p-6 max-w-64 ">
+                <i class="fa-solid fa-earth-americas text-3xl text-blue-500 font-semibold"></i>
+
+                <h2 class="font-bold my-3">The Emerging Tech<br>Experts</h2>
+                    <p class="text-gray-700 text-left    ">Experience lightning fast technology,scalable to row with you, and rock-solid reliability. Our solutions ensure seamless performance for your business needs.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!----------------------------------------------------------------------------------------------------->
+
+  <!---------About Us---------->
+
+
+    <section class="about-section py-12 lg:px-28 xl:px-40 bg-slate-100 ">
+    <div class="container mx-auto px-4">
+        <!-- Top Button -->
+        <div class="text-center my-8">
+            <a href="about.htm" class="text-blue-500 font-bold hover:underline rounded-full border-2 px-4 py-1 bg-blue-100 uppercase">About</a>
+        </div>
+
+        <!-- About Us Title -->
+        <div class="text-center mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold">
+                <span class="text-black">Find Out More </span>
+                <span class="text-blue-600">About Us</span>
+            </h2>
+        </div>
+
+        <!-- Content Layout -->
+        <div class="flex flex-col md:flex-row md:items-center lg:items-start text-gray-700">
+            <!-- Left Side (Image) -->
+            <div class="md:w-1/2 mb-8 md:mb-0">
+                <img src="images/about.jpg" alt="About Us Image" class="w-full h-auto shadow-lg">
+            </div>
+
+            <!-- Right Side (Text) -->
+            <div class="md:w-1/2 px-4 text-center md:text-left ">
+                <p class="text-base sm:text-lg mb-4">
+                    Paarsh Infotech Pvt Ltd provides more than website design and Software development. Your business, web presence, and brand identity will be taken to the next level. We also offer solutions for corporate Web Designing, Web Application Development, Mobile Application Development, Software Development, Digital Marketing, Software Testing, and many more.
+                </p>
+
+                <!-- Icons -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 xl:mt-8 ">
+                    <div class="flex items-center space-x-4 xl:mt-8">
+                        <i class="fas fa-laptop-code text-blue-500 bg-white text-3xl shadow-md  rounded-full p-3"></i>
+                        <span class="font-medium">Web Design &<br> Development</span>
+                    </div>
+                    <div class="flex items-center space-x-4 xl:mt-8">
+                        <i class="fas fa-cogs text-blue-500 bg-white text-3xl shadow-md rounded-full p-3"></i>
+                        <span class="font-medium">Software Development</span>
+                    </div>
+                    <div class="flex items-center space-x-4 xl:mt-8">
+                        <i class="fas fa-laptop-code text-blue-500 bg-white text-3xl shadow-md rounded-full p-3"></i>
+                        <span class=" font-medium">Mobile App<br> Development</span>
+                    </div>
+                    <div class="flex items-center space-x-4 xl:mt-8">
+                        <i class="fas fa-cogs text-blue-500 bg-white text-3xl shadow-md rounded-full p-3"></i>
+                        <span class=" font-medium">E-commerce Website Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Button -->
+        <div class="text-center mt-16">
+            <a href="about.htm" class="bg-blue-500 text-white py-1 px-10 rounded hover:bg-blue-600">
+                More
+            </a>
+        </div>
+    </div>
+</section>
+
+<!----------------------------------------------------------------------------------------------------->
+ <!-- Cards -->
+
+
+
+<section class="py-12 px-6 lg:px-28 xl:px-36">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+            
+              <!-- Card 1 -->
+           
+<div class=" p-6 text-center">
+                <fieldset class=" bg-slate-100 rounded p-6 relative">
+                    <legend class="absolute -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center text-white text-lg font-semibold px-4 py-2 rounded">
+                        <i class="fas fa-smile text-2xl bg-blue-500 rounded-full p-2 w-12"></i>
+                    </legend>
+                    <div class="card-content">
+                        <p class="text-gray-600 text-2xl">95</p>
+                        <h3 class=" font-semibold">Happy Clients</h3>
+                    </div>
+                </fieldset>
+        </div>
+<!-- card 2 -->
+        <div class=" p-6 text-center">
+                <fieldset class=" bg-slate-100 rounded p-6 relative">
+                    <legend class="absolute -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center text-white text-lg font-semibold px-4 py-2 rounded">
+                        <i class="fas fa-tasks text-2xl bg-blue-500 rounded-full p-2 w-12"></i>
+                    </legend>
+                    <div class="card-content">
+                        <p class="text-gray-600 text-2xl">108</p>
+                        <h3 class=" font-semibold">Projects</h3>
+                    </div>
+                </fieldset>
+        </div>
+
+
+<!-- card 3 -->
+        <div class=" p-6 text-center">
+                <fieldset class=" bg-slate-100 rounded p-6 relative">
+                    <legend class="absolute -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center text-white text-lg font-semibold px-4 py-2 rounded">
+                        <i class="fas fa-headphones text-2xl bg-blue-500 rounded-full p-2 w-12"></i>
+                    </legend>
+                    <div class="card-content">
+                        <p class="text-gray-600 text-2xl">1463</p>
+                        <h3 class=" font-semibold">Hours Of Support</h3>
+                    </div>
+                </fieldset>
+        </div>
+            
+
+<!-- card 4 -->
+        <div class=" p-6 text-center">
+                <fieldset class=" bg-slate-100 rounded p-6 relative">
+                    <legend class="absolute -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center text-white text-lg font-semibold px-4 py-2 rounded">
+                        <i class="fas fa-users text-2xl bg-blue-500 rounded-full p-2 w-12"></i>
+                    </legend>
+                    <div class="card-content">
+                        <p class="text-gray-600 text-2xl">15</p>
+                        <h3 class=" font-semibold">Hard Workers</h3>
+                    </div>
+                </fieldset>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+
+ <!----------------------------------------------------------------------------------------------------->
+
+
+ <!-- client carousel -->
+ <style>
+    .snap-x {
+      display: flex;
+      gap: 15px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scrollbar-width: none; /* For Firefox */
+      -ms-overflow-style: none; /* For Internet Explorer and Edge */
+    }
+
+    .snap-x::-webkit-scrollbar {
+      display: none; /* For Chrome, Safari, and Opera */
+    }
+
+    .snap-center {
+      flex-shrink: 0;
+      max-width: 320px;
+    }
+    .snap-center img{
+       
+        
+    }
+
+    @media (min-width:900px){
+        .review-div{
+            margin:0 5% ;
+        }
+    }
+
+    /*img {
+      width: 320px;
+      height: 160px;
+    }*/
+  </style>
+ <div class="bg-slate-100 md:px-12 lg:px-20 xl:px-28">
+    <div class="snap-x review-div  bg-slate-100" id="scrollContainer">
+    
+    <!-- card 1 -->
+    <div class="snap-center p-8  h-48 ">
+    <div class="h-full w-full overflow-hidden rounded-lg">
+        <img src="images/scroll1.jpg" class="h-full w-full object-cover">
+    </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="snap-center p-8 h-48 ">
+    <div class="h-full w-full overflow-hidden rounded-lg">
+        <img src="images/scroll2.jpg" class="h-full w-full object-cover">
+    </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="snap-center p-8 h-48 ">
+    <div class="h-full w-full overflow-hidden rounded-lg">
+        <img src="images/scroll3.jpg" class="h-full w-full object-cover">
+    </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="snap-center p-8 h-48 ">
+    <div class="h-full w-full overflow-hidden rounded-lg">
+        <img src="images/scroll4.jpg" class="h-full w-full object-cover">
+    </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="snap-center p-8 h-48 ">
+    <div class="h-full w-full overflow-hidden rounded-lg">
+        <img src="images/scroll5.jpg" class="h-full w-full object-cover">
+    </div>
+    </div>
+
+    <!-- card 2 -->
+    <div class="snap-center p-8 h-48 ">
+    <div class="h-full w-full overflow-hidden rounded-lg">
+        <img src="images/scroll6.jpg" class="h-full w-full object-cover">
+    </div>
+    </div>
+
+
+    <!-- <div class="snap-center p-3 rounded-lg shadow-2xl h-56 bg-gray-100">
+      <div >
+        <div class="flex align-center">
+        <img  src="assets/assets/user1.gif" >
+        <div class="m-4 ">
+        <p class="text-lg font-semibold">1 Samir Choudhary</p>
+        <p >Location</p>
+        </div>
+        </div>
+        <p class="mx-4 mt-2 ">We empower our clients to leapfrog the competition by stitching advanced technologies like Big Data Analytics, Artificial ... </p>
+      </div>
+    </div> -->
+
+
+  </div>
+</div>
+
+
+
+
+<!----------------------------------------------------------------------------------------------------->
+
+
+ <!-----services---->
+<!-- Service Section -->
+   <section class="py-12 bg-white ">
+
+    <div class="container mx-auto px-4 md:px-16 lg:px-8 xl:px-16">
+
+         <div class="text-center my-8">
+            <a href="about.htm" class="text-blue-500 font-bold hover:underline rounded-full border-2 px-4 py-1 bg-blue-100 uppercase">Services</a>
+        </div>
+
+        <!-- About Us Title -->
+        <div class="text-center mb-8">
+            <h2 class="text-2xl sm:text-3xl font-bold">
+                <span class="text-black">Check Our </span>
+                <span class="text-blue-600">Services</span>
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-2 xl:gap-2 xl:px-28 mx-auto">
+
+            <!-- Card 1 -->
+            
+            <a href="web-development.htm" class="hover:bg-slate-100  border-2 border-gray-100 px-4 py-20 h-[400px] flex-1 max-w-[350px] mx-auto">
+                <div class="flex justify-center mb-3 ">
+                    <div class="bg-slate-100 text-blue-500 p-4 rounded">
+                       <i class="fa-solid fa-globe text-2xl"></i>
+                    </div>
+                </div>
+                <h2 class="font-bold text-center mb-2 text-xl">Web Development</h2>
+                <p class="text-gray-700 text-center">Web development is the work involved in developing a website for the Internet. We believe in designing a user-friendly website to beat the industry standard.</p> 
+                </a>
+
+            <!-- Card 2 -->
+            <a href="software-development.htm" class="hover:bg-slate-100  border-2 border-gray-100 px-4 py-20 h-[400px] flex-1 max-w-[350px] mx-auto">
+                <div class="flex justify-center mb-3 ">
+                    <div class="bg-slate-100 text-blue-500 p-4 rounded">
+                       <i class="fa-solid fa-computer text-2xl"></i>
+                    </div>
+                </div>
+                <h2 class="font-bold text-center mb-2 text-xl">Software Development</h2>
+                <p class="text-gray-700 text-center">Software development refers to a set of computer science activities dedicated to the process of creating, designing, deploying, and supporting software.</p> 
+        </a>
+
+            <!-- Card 3 -->
+             <a href="android-app-development.htm" class="hover:bg-slate-100  border-2 border-gray-100 px-4 py-20 h-[400px] flex-1 max-w-[350px] mx-auto">
+                <div class="flex justify-center mb-3 ">
+                    <div class="bg-slate-100 text-blue-500 p-4 rounded">
+                       <i class="fab fa-android text-2xl"></i>
+                    </div>
+                </div>
+                <h2 class="font-bold text-center mb-2 text-xl">Android App Development</h2>
+                <p class="text-gray-700 text-center">Mobile devices and smartphones have become increasingly popular and important. They have completely transformed the way we do business today.</p> 
+            
+        </a>
+
+         <!-- Card 4 -->
+          <a href="ios-app-development.htm" class="hover:bg-slate-100  border-2 border-gray-100 px-4 py-20 h-[400px] flex-1 max-w-[350px] mx-auto">
+                <div class="flex justify-center mb-3 ">
+                    <div class="bg-slate-100 text-blue-500 p-4 rounded">
+                       <i class="fa-brands fa-apple text-2xl"></i>
+                    </div>
+                </div>
+                <h2 class="font-bold text-center mb-2 text-xl">iOS App Development</h2>
+                <p class="text-gray-700 text-center">iOS Developers design and build applications for mobile devices running Apple’s iOS operating software.</p> 
+            
+        </a>
+
+            <!-- Card 5 -->
+             <a href="e-commerce-development.htm" class="hover:bg-slate-100  border-2 border-gray-100 px-4 py-20 h-[400px] flex-1 max-w-[350px] mx-auto">
+                <div class="flex justify-center mb-3 ">
+                    <div class="bg-slate-100 text-blue-500 p-4 rounded">
+                       <i class="fa-solid fa-house text-2xl"></i>
+                    </div>
+                </div>
+                <h2 class="font-bold text-center mb-2 text-xl">E-commerce Development</h2>
+                <p class="text-gray-700 text-center">E-commerce (electronic commerce) is the activity of electronically buying or selling of products on online services or over the Internet.</p> 
+            
+        </a>
+
+            <!-- Card 6 -->
+             <a href="digital-marketing.htm" class="hover:bg-slate-100  border-2 border-gray-100 px-4 py-20 h-[400px] flex-1 max-w-[350px] mx-auto">
+                <div class="flex justify-center mb-3 ">
+                    <div class="bg-slate-100 text-blue-500 p-4 rounded">
+                       <i class="fa-solid fa-bullhorn text-2xl"></i>
+                    </div>
+                </div>
+                <h2 class="font-bold text-center mb-2 text-xl">Digital Marketing</h2>
+                <p class="text-gray-700 text-center">Digital marketing is the component of marketing that utilizes internet and online-based digital technologies.</p> 
+        </a>
+
+    </div>
+    <!-- Bottom Button -->
+        <div class="text-center mt-4">
+            <a href="Services.htm" class="bg-blue-500 text-white py-1 px-10 rounded hover:bg-blue-600">More</a>
+        </div>
+</section>
+<!----------------------------------------------------------------------------------------------------->
+
+<!-- Review carousel -->
+<div id="default-carousel" class="relative w-full  sm:mt-8" data-carousel="slide">
+    <!-- Carousel wrapper -->
+    <div class="relative h-80 overflow-hidden md:h-[440px] bg-cover bg-center " style="background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.9) 100%), url('images/rev-carousel1.jpg');">
+        <!-- Item 1 -->
+        <div class="hidden duration-700 ease-in-out absolute block w-full flex justify-center align-center " data-carousel-item>
+            <div class="pt-6 md:pt-28 ">
+               <div class="flex justify-center rounded-full ">
+                <img src="images/review1.jpeg" class="h-28 w-28 border-2 rounded-full object-cover border-4 border-gray-400">
+               </div>
+
+                <p class="text-white text-center font-semibold text-xl px-4 mt-1">Aishwarya Nair</p>
+                <p class="text-white text-center px-4 mb-4">Web Developer</p>
+                <p class=" text-center text-lg text-gray-200 px-4"><i>Great environment with cutting-edge tools for frontend innovation.</i></p>
+            </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="hidden duration-700 ease-in-out absolute block w-full flex justify-center align-center " data-carousel-item>
+            <div class="pt-6 md:pt-28 ">
+               <div class="flex justify-center rounded-full ">
+                <img src="images/review3.jpeg" class="h-28 w-28 border-2 rounded-full object-cover border-4 border-gray-400">
+               </div>
+
+                <p class="text-white text-center font-semibold text-xl px-4 mt-1">Mohit Gupta</p>
+                <p class="text-white text-center px-4 mb-4">Python Developer</p>
+                <p class=" text-center text-lg text-gray-200 px-4"><i>Collaborative workspace that encourages creative problem-solving with Python.</i></p>
+            </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out absolute block w-full flex justify-center align-center " data-carousel-item>
+            <div class="pt-6 md:pt-28 ">
+               <div class="flex justify-center rounded-full ">
+                <img src="images/review4.jpeg" class="h-28 w-28 border-2 rounded-full object-cover border-4 border-gray-400">
+               </div>
+
+                <p class="text-white text-center font-semibold text-xl px-4 mt-1">Aarav Sharma</p>
+                <p class="text-white text-center px-4 mb-4">Backend Developer</p>
+                <p class=" text-center text-lg text-gray-200 px-4"><i>Robust infrastructure and resources for building scalable backend solutions.</i></p>
+            </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out absolute block w-full flex justify-center align-center " data-carousel-item>
+            <div class="pt-6 md:pt-28 ">
+               <div class="flex justify-center rounded-full ">
+                <img src="images/review2.jpeg" class="h-28 w-28 border-2 rounded-full object-cover border-4 border-gray-400">
+               </div>
+
+                <p class="text-white text-center font-semibold text-xl px-4 mt-1">Nidhi Gupta</p>
+                <p class="text-white text-center px-4 mb-4">Backend Developer</p>
+                <p class=" text-center text-lg text-gray-200 px-4"><i>Robust infrastructure and resources for building scalable backend solutions.</i></p>
+            </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="hidden duration-700 ease-in-out absolute block w-full flex justify-center align-center " data-carousel-item>
+            <div class="pt-6 md:pt-28 ">
+               <div class="flex justify-center rounded-full ">
+                <img src="images/review5.jpeg" class="h-28 w-28 border-2 rounded-full object-cover border-4 border-gray-400">
+               </div>
+
+                <p class="text-white text-center font-semibold text-xl px-4 mt-1">Shruti Sharma</p>
+                <p class="text-white text-center px-4 mb-4">Python Developer</p>
+                <p  class=" text-center text-lg text-gray-200 px-4"><i>Collaborative workspace that encourages creative problem-solving with Python.</i></p>
+            </div>
+        </div>
+        
+
+    </div>
+    
+    <!-- Slider controls -->
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
+
+<!----------------------------------------------------------------------------------------------------->
+
+
+<!-- stay connected and footer -->
+
+<!-- stay connected -->
+<section class="py-14 px-6 bg-slate-100 text-center">
+    <div class="container mx-auto">
+        <h2 class="text-2xl font-bold text-black mb-4">Stay Connected with Paarsh Infotech</h2>
+        <p class="text-lg text-gray-700 mb-6">Join our newsletter for exclusive updates and insights!</p>
+        <div class="relative flex justify-center items-center">
+            <input type="email" placeholder="Email address" class="p-2 border border-gray-300 rounded-l-lg sm:w-[280px] md:w-[350px] lg:w-[420px] min-w-[180px] max-w-4xl focus:outline-none focus:ring-2 focus:ring-blue-500 pr-16">
+            <button class="bg-blue-500 text-white p-2 rounded-r-lg w-32 hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">Subscribe</button>
+
+        </div>
+    </div>
+</section>
+<!----------------------------------------------------------------------------------------------------->
+
+
+<!-- footer -->
+
+<footer class="bg-white text-black pt-12 px-4 md:px-24 lg:px-28 xl:px-36">
+    <div class="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-3">
+        
+        <!-- Column 1: Logo, Text, Icons -->
+        <div class="flex flex-col items-center sm:items-start mb-4">
+            <!-- Logo -->
+            <img src="images/logo.png" alt="Logo" class="w-48 sm:w-60 mb-4">
+            
+            <!-- Text -->
+            <p class="text-center sm:text-left mb-6 text-black w-full sm:w-60"> 
+                Paarsh Infotech Pvt Ltd provides more than website design and Software development.
+            </p>
+
+            <h2 class="mb-4 text-center sm:text-left text-black font-bold">Our Social Networks</h2>
+
+            <!-- Social Icons -->
+            <div class="flex justify-center sm:justify-start space-x-2">
+                <a href="https://www.facebook.com/Paarsh.Infotech" class="bg-blue-600 text-white rounded-md p-3 flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://x.com/paarshinfotech" class="bg-blue-600 text-white rounded-md p-3 flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/paarsh_infotech/" class="bg-blue-600 text-white rounded-md p-3 flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/paarsh-infotech-pvt-ltd/about/" class="bg-blue-600 text-white rounded-md p-3 flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.youtube.com/@paarshinfotech" class="bg-blue-600 text-white rounded-md p-3 flex items-center justify-center hover:bg-blue-700 transition-colors duration-300">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Column 2: Useful Links -->
+        <div>
+            <h4 class="text-lg font-semibold mb-4">Useful Links</h4>
+            <ul class="space-y-2">
+                <li><a href="index.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Home</a></li>
+                <li><a href="about.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> About Us</a></li>
+                <li><a href="services.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Services</a></li>
+                
+                <li><a href="contact.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Contact</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3: Services -->
+        <div>
+            <h4 class="text-lg font-semibold mb-4">Services</h4>
+            <ul class="space-y-2">
+                <li><a href="web-development.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Web Development</a></li>
+                <li><a href="software-development.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Software Development</a></li>
+                <li><a href="android-app-development.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Android App Development</a></li>
+                <li><a href="ios-app-development.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> iOS App Development</a></li>
+                <li><a href="e-commerce-development.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> E-Commerce Development</a></li>
+                <li><a href="digital-marketing.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Digital Marketing</a></li>
+                <li><a href="social-media-marketing.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Social Media Marketing</a></li>
+                <li><a href="graphic-design.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Graphics Designing</a></li>
+                <li><a href="logo-design.htm" class="hover:text-blue-600"><span class="text-blue-500 font-bold">></span> Logo Design</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 4: Get in Touch -->
+        <div>
+            <h4 class="text-lg font-semibold mb-4">Get in Touch</h4>
+            <div class="mb-4">
+                <i class="fa-solid fa-phone text-blue-500 mr-2"></i>
+                <span class="text-black">+91 98609 88343</span>
+            </div>
+            <div class="mb-4">
+                <i class="fa-solid fa-envelope text-blue-500 mr-2"></i>
+                <span class="text-black">
+                    <a href="mailto:info@paarshinfotech.com" class="text-black hover:underline">info@paarshinfotech.com</a>
+                </span>
+            </div>
+            <div class="mb-4">
+                <i class="fa-solid fa-location-dot text-blue-500 mr-2"></i>
+                <span>Paarsh Infotech Pvt Ltd. Office no 1</span>
+                <p class="ml-6">Bhakti Apartment, Near Rasoi Hotel <br>Suchita Nagar, Mumbai Naka,<br>Nashik 422001</p>
+            </div>
+        </div>
+    </div>
+</footer>
+ 
+<!-- copyright paarsh infotech -->
+<section class="py-8 px-6 bg-slate-100 text-left md:px-24 xl:px-36">
+    <div class="container mx-auto">
+       
+  <p class="text-gray-700"><a href="#">Terms & Conditions</a>&nbsp;&nbsp;&nbsp;<a href="#">Privacy Policy</a>&nbsp;&nbsp;&nbsp;<a href="#">Refund Policy</a></p>
+  <p class="text-gray-700">Copyright ©2023 <b>Paarsh Infotech Pvt ltd.</b></p>
+  
+    </div>
+</section>
+
+<script src="NavScript.js"></script>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<!-- client carousel -->
+<script>
+    const scrollContainer = document.getElementById('scrollContainer');
+    let autoScrollInterval;
+
+    function startAutoScroll() {
+      autoScrollInterval = setInterval(() => {
+        const scrollWidth = scrollContainer.scrollWidth;
+        const clientWidth = scrollContainer.clientWidth;
+
+        scrollContainer.scrollLeft += 250;
+
+        if (scrollContainer.scrollLeft + clientWidth >= scrollWidth) {
+          scrollContainer.scrollLeft = 0;
+        }
+      }, 1500); // Auto-scroll every 3 seconds
+    }
+
+    function stopAutoScroll() {
+      clearInterval(autoScrollInterval);
+    }
+
+    // Start auto-scrolling when the page loads
+    startAutoScroll();
+
+    // Stop auto-scrolling when the mouse enters the container
+    scrollContainer.addEventListener('mouseenter', stopAutoScroll);
+
+    // Resume auto-scrolling when the mouse leaves the container
+    scrollContainer.addEventListener('mouseleave', startAutoScroll);
+
+  </script>
+
+  <!-- Website developed by Samir Kumar Choudhary -->
+  <!-- samirkumarchoudhary2302@gmail.com -->
+</body>
+</html>
